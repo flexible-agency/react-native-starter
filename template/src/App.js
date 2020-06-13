@@ -1,7 +1,7 @@
 import { Navigation } from 'react-native-navigation';
 
 // Load screens
-import * as Screens from './screens';
+import { SCREEN_WELCOME } from './screens';
 
 // Display default screen
 Navigation.events().registerAppLaunchedListener(() => {
@@ -11,7 +11,7 @@ Navigation.events().registerAppLaunchedListener(() => {
         children: [
           {
             component: {
-              name: Screens.WELCOME
+              name: SCREEN_WELCOME
             }
           }
         ]
