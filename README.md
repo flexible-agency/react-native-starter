@@ -5,7 +5,7 @@
 Create a new project using the command below. Replace `MyApp` with your app name.
 
 ```sh
-npx @flexible-agency/react-native-starter
+npx @flexible-agency/react-native-starter MyApp
 ```
 
 Included libraries:

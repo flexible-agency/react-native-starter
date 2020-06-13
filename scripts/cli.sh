@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-npx @react-native-community/cli init MyApp --template @flexible-agency/react-native-starter --version 0.63.0-rc.1
+
+RN_VERSION="0.63.0-rc.1"
+RN_TEMPLATE="@flexible-agency/react-native-starter"
+
+npx @react-native-community/cli init --template $RN_TEMPLATE --version $RN_VERSION $@
