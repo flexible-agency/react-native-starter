@@ -31,10 +31,6 @@ static void InitializeFlipper(UIApplication *application) {
 #endif
 
   [ReactNativeNavigation bootstrapWithDelegate:self launchOptions:launchOptions];
-  if (@available(iOS 13.0, *)) {
-      } else {
-      rootView.backgroundColor = [UIColor whiteColor];
-  }
 
   return YES;
 }
