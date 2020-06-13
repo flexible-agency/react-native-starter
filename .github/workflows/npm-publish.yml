@@ -16,7 +16,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: cd template && yarn && yarn test
 
-  publish-npm:
+  publish:
     needs: lint
     runs-on: ubuntu-latest
     steps:
