@@ -1,0 +1,28 @@
+{
+  "name": "@flexible-agency/react-native-starter",
+  "version": "1.0.0",
+  "description": "Clean and minimalist React Native template for a quick start.",
+  "scripts": {
+    "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
+  },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flexible-agency/react-native-starter.git"
+  },
+  "keywords": [
+    "react-native",
+    "jest",
+    "template",
+    "boilerplate"
+  ],
+  "author": "Flexible Agency <hi@flexible.agency>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flexible-agency/react-native-starter/issues"
+  },
+  "homepage": "https://github.com/flexible-agency/react-native-starter#readme"
+}
