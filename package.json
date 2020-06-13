@@ -1,9 +1,9 @@
 {
   "name": "@flexible-agency/react-native-starter",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Clean and minimalist React Native template for a quick start.",
   "scripts": {
-    "prepublishOnly": "rm template/yarn.lock || true; npm --no-git-tag-version version $TRAVIS_TAG"
+    "prepublishOnly": "rm template/yarn.lock || true; npm --no-git-tag-version version \"1.0.${GITHUB_RUN_NUMBER}\""
   },
   "files": [
     "template",
