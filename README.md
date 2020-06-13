@@ -8,6 +8,8 @@ Create a new project using the command below. Replace `MyApp` with your app name
 npx @flexible-agency/react-native-starter MyApp
 ```
 
+<br />
+
 Included libraries:
 
 * [React Native Navigation](https://wix.github.io/react-native-navigation/), a native navigation module
