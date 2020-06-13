@@ -15,10 +15,10 @@
   },
   "keywords": [
     "react-native",
-    "jest",
     "template",
     "boilerplate"
   ],
+  "bin": "./scripts/cli.sh",
   "author": "Flexible Agency <hi@flexible.agency>",
   "license": "MIT",
   "bugs": {

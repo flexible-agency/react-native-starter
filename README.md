@@ -5,7 +5,7 @@
 Create a new project using the command below. Replace `MyApp` with your app name.
 
 ```sh
-npx @react-native-community/cli init MyApp --template @flexible-agency/react-native-starter --version 0.63.0-rc.1
+npx @flexible-agency/react-native-starter
 ```
 
 Included libraries:
