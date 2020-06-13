@@ -2,10 +2,10 @@
 
 **A quick and simple template for React Native.**
 
-Create a new project:
+Create a new project using the command below. Replace `MyApp` with your app name.
 
 ```sh
-npx react-native init MyApp --template @flexible-agency/react-native-starter
+npx @react-native-community/cli init MyApp --template @flexible-agency/react-native-starter --version 0.63.0-rc.1
 ```
 
 Included libraries:
