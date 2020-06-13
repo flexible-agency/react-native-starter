@@ -3,3 +3,5 @@ build
 template/ios/Pods
 template/yarn.lock
 *.log
+xcuserdata
+xcshareddata
