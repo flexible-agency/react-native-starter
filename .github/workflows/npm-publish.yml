@@ -17,7 +17,7 @@ jobs:
       - run: cd template && yarn && yarn test
 
   publish-npm:
-    requires: lint
+    needs: lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
