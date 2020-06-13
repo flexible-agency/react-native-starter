@@ -1,7 +1,7 @@
 node_modules
 build
 template/ios/Pods
-template/yarn.lock
+yarn.lock
 *.log
 xcuserdata
 xcshareddata
