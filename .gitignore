@@ -1,4 +1,5 @@
 node_modules
 build
 template/ios/Pods
+template/yarn.lock
 *.log
